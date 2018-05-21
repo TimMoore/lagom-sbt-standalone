@@ -32,6 +32,10 @@ This runs each of the services on the configured port, as single-node clusters.
 
 You can press control-C to exit the services, and run `lagomCassandraStop` in the initial sbt console to stop Cassandra (or simply exit sbt).
 
+## Steps for lagom-scala project
+
+For those looking for a basic example of building a Lagom project, in Scala, to run outside of the Lightbend Production Suite (aka ConductR) follow this link - [lagom-scala-sbt-standalone](https://github.com/knoldus/lagom-scala-sbt-standalone).
+
 ## Caveats
 
 This configuration is not suitable for production deployments, it's just intended as a starting point. Here are some of the limitations to be aware of.
